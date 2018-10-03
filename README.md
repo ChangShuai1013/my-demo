@@ -3,3 +3,4 @@
 包含以下算法：  
 堆排序 HeapSort  
 快速排序 QuickSort  
+插入排序 InsertSort  
