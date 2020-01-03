@@ -1,4 +1,4 @@
-package com.cs.heapsort;
+package com.cs.sort;
 
 public class HeapSort {
 	private int m_length;
@@ -82,5 +82,15 @@ public class HeapSort {
 	
 	private int parent(int i) {
 		return (int) Math.ceil(i / 2.0);
+	}
+
+	public static void main(String[] args) {
+		int[] arr = {4, 1, 3, 2, 16, 9, 10, 14, 8, 7};
+		HeapSort hs = new HeapSort(arr);
+		hs.sort();
+		int[] result = hs.getM_arr();
+		for (int i = 0; i < result.length; i++) {
+			System.out.println(result[i]);
+		}
 	}
 }

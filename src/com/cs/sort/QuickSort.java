@@ -1,4 +1,4 @@
-package com.cs.quicksort;
+package com.cs.sort;
 
 public class QuickSort {
 	private int[] m_arr;
@@ -40,5 +40,15 @@ public class QuickSort {
 		int tmp = m_arr[i];
 		m_arr[i] = m_arr[j];
 		m_arr[j] = tmp;
+	}
+
+	public static void main(String[] args) {
+		int[] arr = {4, 1, 3, 2, 16, 9, 10, 14, 8, 7};
+		QuickSort qs = new QuickSort(arr);
+		qs.quickSort(0, arr.length - 1);
+		int[] result = qs.getM_arr();
+		for (int i = 0; i < result.length; i++) {
+			System.out.println(result[i]);
+		}
 	}
 }
