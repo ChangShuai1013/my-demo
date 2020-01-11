@@ -9,3 +9,4 @@
 
 ## 设计模式 Design Patterns
 - 单例模式 Singleton
+- 观察者模式 Observer
