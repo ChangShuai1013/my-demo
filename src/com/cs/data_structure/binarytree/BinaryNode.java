@@ -1,4 +1,4 @@
-package com.cs.datastructure.binarytree;
+package com.cs.data_structure.binarytree;
 
 public class BinaryNode<T> {
     private T data;

@@ -1,4 +1,4 @@
-package com.cs.designpatterns.singleton;
+package com.cs.design_patterns.singleton;
 
 /**
  * 饿汉式（静态代码块）

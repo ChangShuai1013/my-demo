@@ -1,4 +1,4 @@
-package com.cs.designpatterns.observer;
+package com.cs.design_patterns.observer;
 
 public class Main {
     public static void main(String[] args) {

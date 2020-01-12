@@ -1,4 +1,4 @@
-package com.cs.designpatterns.singleton;
+package com.cs.design_patterns.singleton;
 
 /**
  * 饿汉式（在类初始化时直接创建实例对象，不管是否需要这个对象）

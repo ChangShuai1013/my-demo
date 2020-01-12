@@ -1,4 +1,4 @@
-package com.cs.designpatterns.observer;
+package com.cs.design_patterns.observer;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.cs.designpatterns.singleton;
+package com.cs.design_patterns.singleton;
 
 public class TestSingleton {
 
