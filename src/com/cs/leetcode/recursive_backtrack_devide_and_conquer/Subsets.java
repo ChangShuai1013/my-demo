@@ -44,7 +44,6 @@ public class Subsets {
     public List<List<Integer>> subsets2(List<Integer> nums) {
         List<List<Integer>> result = new ArrayList<>();
         int allSet = 1 << nums.size();//2^n
-        System.out.println(allSet);
         for (int i = 0; i < allSet; i++) {
             List<Integer> item = new ArrayList<>();
             for (int j = 0; j < nums.size(); j++) {
