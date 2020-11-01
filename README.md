@@ -1,4 +1,7 @@
 # Algorithm
+
+我的算法学习相关记录
+
 ## 排序 Sort
 根据算法导论（中文版第四版）中的伪代码实现的排序算法。  
 - 堆排序 HeapSort  
@@ -19,5 +22,6 @@
 
 ## 算法题 LeetCode
 - 链表 LinkedList
-- 栈、队列、堆 StackQueueDump
+- 栈、队列、堆 Stack,Queue,Dump
 - 贪心算法 GreedyAlgorithm
+- 递归、回溯、分治 Recursive,Backtrack,Devide and Conquer
