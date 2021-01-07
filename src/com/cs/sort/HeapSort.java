@@ -1,5 +1,8 @@
 package com.cs.sort;
 
+/**
+ * 堆排序
+ */
 public class HeapSort {
 	private int m_length;
 	private int m_heapSize;

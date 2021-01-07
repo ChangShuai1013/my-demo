@@ -1,5 +1,8 @@
 package com.cs.sort;
 
+/**
+ * 快速排序
+ */
 public class QuickSort {
 	private int[] m_arr;
 

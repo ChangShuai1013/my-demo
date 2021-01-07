@@ -1,7 +1,6 @@
 package com.cs.leetcode.recursive_backtrack_devide_and_conquer;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -12,13 +11,13 @@ import java.util.List;
  * N皇后问题
  */
 public class NQueens {
-    private static final int[] dx = new int[]{-1, 1, 0, 0, -1, -1, 1, 1};//方向数组
-    private static final int[] dy = new int[]{0, 0, -1, 1, -1, 1, -1, 1};
+    public static final int[] dx = new int[]{-1, 1, 0, 0, -1, -1, 1, 1};//方向数组
+    public static final int[] dy = new int[]{0, 0, -1, 1, -1, 1, -1, 1};
 
     public List<List<String>> solveNQueens(int n) {
         List<List<String>> result = new ArrayList<>();
         int[][] mark = new int[n][n];//标记棋盘是否可以放置皇后的二维数组
-        List<String> location = new ArrayList<>();//存储某个拜访结果，当完成一次递归找到结果后，将location放入result
+        List<String> location = new ArrayList<>();//存储某个摆放结果，当完成一次递归找到结果后，将location放入result
         for (int i = 0; i < n; i++) {
             StringBuilder initLocation = new StringBuilder();
             for (int j = 0; j < n; j++) {

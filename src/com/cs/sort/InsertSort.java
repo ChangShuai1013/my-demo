@@ -1,5 +1,8 @@
 package com.cs.sort;
 
+/**
+ * 插入排序
+ */
 public class InsertSort {
 	private int[] m_input;
 	

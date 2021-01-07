@@ -1,5 +1,8 @@
 package com.cs.sort;
 
+/**
+ * 归并排序
+ */
 public class MergeSort {
 	private int[] m_arr;
 
