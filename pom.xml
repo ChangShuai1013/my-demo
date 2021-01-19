@@ -5,8 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.cs</groupId>
-    <artifactId>algorithm-java</artifactId>
+    <artifactId>my-demo</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
+    <modules>
+        <module>algorithm</module>
+        <module>flink</module>
+    </modules>
 
     <properties>
     </properties>
