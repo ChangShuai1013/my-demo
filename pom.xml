@@ -11,6 +11,8 @@
     <modules>
         <module>algorithm</module>
         <module>flink</module>
+        <module>socket</module>
+        <module>spring-boot-web</module>
     </modules>
 
     <properties>
